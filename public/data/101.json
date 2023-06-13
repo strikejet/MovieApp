@@ -1,0 +1,8 @@
+{
+    "ID" : 101,
+    "Title" : "Django Unchained",
+    "Description": "When Django, a slave, is freed, he joins forces with a bounty hunter to rescue his wife, who has been enslaved by Calvin, a hard-hearted plantation owner.",
+    "url": "https://www.youtube.com/embed/4Fr29B7gYWs",
+    "genre" : "Western, Drama",
+    "cast": ["Jamie Foxx", "Christoph Waltz", "Leonardo DiCaprio", "Kerry Washington"]
+}
