@@ -35,6 +35,12 @@ function Details()
         helper.send();
     }, []);
 
+    const gotoBook =()=>{
+        console.log("You are about to book the movie : ");
+        console.log(movieDetails);
+    }
+
+
     return <div className = 'table-responsive'>
             
                 <table className = 'table table-bordered'>
@@ -58,8 +64,13 @@ function Details()
                             </td>
                         </tr>
                         <tr>
+                            
                             <td className = 'text-justify'>
-                                <video src={movieDetails.url} style={{height: 200, width: 200}}></video>
+                            <button onClick={gotoBook} className='btn btn-warning'>
+                                Book tickets for this movie
+                                </button><br></br> <br></br>
+                                <iframe width="560" height="315" 
+                               src={movieDetails.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </td>
                         </tr>
                        
